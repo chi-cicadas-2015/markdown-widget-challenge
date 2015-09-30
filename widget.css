@@ -1,0 +1,22 @@
+html {
+  text-align: center;
+}
+
+#input-area {
+  width: 25em;
+  display: block;
+  margin: auto;
+}
+
+#display-area {
+  border: 1px solid gray;
+  margin: 2em;
+  white-space: pre-wrap;
+}
+
+#display-area p {
+  text-align: left;
+  margin: 1em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}

@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Markdown Widget</title>
+    <link rel="stylesheet" href="widget.css">
+    <!-- Alyssa used jquery-1.11.0.min.js -->
+    <!-- jquery-1.7.2.min.js -->
+    <script src="jquery.min.js"></script>
+    <script src="widget.js"></script>
+    <script>
+    $(function(){
+      var widget = new Widget();
+      widget.initialize();
+    });
+    </script>
+  </head>
+  <body>
+    <h1>Markdown Widget</h1>
+    <br>
+    <label>Enter your text below:</label>
+    <br>
+    <br>
+    <textarea id="input-area"></textarea>
+    <div id="display-area">
+      <p id="display-text"></p>
+    </div>
+  </body>
+</html>
