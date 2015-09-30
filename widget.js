@@ -10,7 +10,9 @@ var WidgetView = function() {
   }
 
   this.setDisplayArea = function(output,source) {
-    output.text(source.val())
+    output.text(
+      markdown.toHTML( source.val(),'Maruku')
+    )
   }
 }
 
@@ -26,7 +28,7 @@ var Widget = function() {
   }
 
   this.initialize = function(){
-    widgetView.getInputArea().on("keypress",processText);
+    widgetView.getInputArea().on("keyup",processText);
   }
 }
 // FIRST DRAFT-------------------------
