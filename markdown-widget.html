@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="markdown.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="markdown.js"></script>
+  <script>
+  $(function(){
+  	var markdownWidget = new MarkdownWidget('#source-id', '#preview-div');
+  	markdownWidget.initialize();
+  })
+  </script>
+
+  <title>Bill’s Markdown Widget</title>
+</head>
+
+<body>
+	<h3>Type here...</h3>
+	<textarea id="source-id"></textarea>
+	<hr />
+	<h3>See the results here...</h3>
+	<div id="preview-div"></div>
+</body>
+
+</html>

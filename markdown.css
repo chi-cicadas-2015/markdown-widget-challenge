@@ -1,0 +1,10 @@
+textarea {
+	width: 60%;
+	height: 15em;
+}
+
+#preview-div {
+	border: 1px solid black;
+	width: 60%;
+	height: 10em;
+}
