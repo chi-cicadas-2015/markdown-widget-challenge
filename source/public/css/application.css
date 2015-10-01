@@ -1,0 +1,55 @@
+* {
+  background: url(../imgs/chalkboard.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  color: #F8F8F8;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  text-align: center;
+  font-size: 300%;
+}
+
+h2 {
+  font-family: 'Indie Flower', cursive;
+  color: #F8F8F8;
+  margin-top: 1em;
+  margin-left: 3em;
+  text-align: left;
+}
+
+textarea#inputbox {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35em;
+  border: none;
+  font-family: 'Alegreya', serif;
+  font-size: 130%;
+  color: #F8F8F8;
+}
+
+textarea#inputbox:focus {
+    outline-width: 0;
+}
+
+#previewbox {
+  display: block;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35em;
+  border: none;
+  font-family: 'Alegreya', serif;
+  font-size: 130%;
+  color: #F8F8F8;
+  overflow-x: scroll;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
