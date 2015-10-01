@@ -6,16 +6,16 @@ function transformText(text) {
 }
 
 function italicizeText(text) {
-  new_text= text.replace( /(^|[^*])\*([^*]+|\w)\*/, '$1<em>$2</em>' )
+  new_text= text.replace( /(^|[^*])\*([^*]+|\w)\*/g, '$1<em>$2</em>' )
   return new_text
 }
 
 function underlineText(text) {
-  return text.replace(/\_([^*_]+|\w)\_/, '<u>$1</u>')
+  return text.replace(/\_([^*_]+|\w)\_/g, '<u>$1</u>')
 }
 
 function boldText(text) {
-  return text.replace(/\*\*([^*]+|\w)\*\*/, '<b>$1</b>')
+  return text.replace(/\*\*([^*]+|\w)\*\*/g, '<b>$1</b>')
 }
 
 // *_**matt**_*
